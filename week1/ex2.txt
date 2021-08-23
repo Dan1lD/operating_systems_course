@@ -1,0 +1,2293 @@
+    1  bash
+    2  sudo add-apt-repository ppa:webupd8team/terminix\nsudo apt-get update\nsudo apt-get install tilix
+    3  y
+    4  sudo add-apt-repository ppa:webupd8team/terminix\nsudo apt-get update\nsudo apt-get install tilix
+    5  sudo apt-get update
+    6  sudo apt-get install tilix
+    7  ps aux | grep -i apt
+    8  sudo killall apt
+    9  sudo killall apt apt-get
+   10  ps aux | grep -i apt
+   11  sudo apt-get install tilix
+   12  tilix
+   13  sudo update-alternatives --config x-terminal-emulator
+   14  git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+   15  git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+   16  ~/.zshrc
+   17  sudo ~/.zshrc
+   18  nano sudo ~/.zshrc
+   19  nano ~/.zshrc
+   20  conda create -n PointAugment python=3.6
+   21  pip install open3d
+   22  sudo apt install ntfs-eg
+   23  sudo apt install ntfs-3g
+   24  exit()\n\n\nls
+   25  ls
+   26  mkdir ~/Projects
+   27  cd ~/Projects
+   28  ls
+   29  git clone https://gitlab.com/safetydoors/SafetyDoorsPipeline
+   30  ls
+   31  cd SafetyDoorsPipeline
+   32  ls
+   33  apt-get install nvidia-docker
+   34  sudo apt-get install nvidia-docker
+   35  sudo apt-get install nvidia-docker2
+   36  distribution=$(. /etc/os-release;echo $ID$VERSION_ID) \\n   && curl -s -L https://nvidia.github.io/nvidia-docker/gpgkey | sudo apt-key add - \\n   && curl -s -L https://nvidia.github.io/nvidia-docker/$distribution/nvidia-docker.list | sudo tee /etc/apt/sources.list.d/nvidia-docker.list
+   37  sudo apt-get update
+   38  sudo apt-get install nvidia-docker2
+   39  nvidia-docker 
+   40  nvidia-docker build -t safety-doors-pipeline . 
+   41  sudo nvidia-docker build -t safety-doors-pipeline . 
+   42  df -h
+   43  nvidia-docker run -it safety-doors bash
+   44  sudo nvidia-docker run -it safety-doors bash
+   45  nvidia-docker
+   46  nvidia-smi
+   47  sudo nvidia-docker run -it safety-doors bash
+   48  ^[[200~sudo apt remove docker-ce
+   49  sudo apt autoremove
+   50  sudo apt-get install docker-ce=5:18.09.0~3-0~ubuntu-bionic~
+   51  sudo apt-get install docker-ce=5:18.09.0~3-0~ubuntu-bionic
+   52  ^[[200~sudo systemctl daemon-reload
+   53  ~
+   54  cd ~/Projects/SafetyDoorsPipeline
+   55  ls
+   56  sudo nvidia-docker run -it safety-doors bash
+   57  docker run --help
+   58  sudo apt-get install nvidia-container-runtime\n\n
+   59  sudo nvidia-docker run -it safety-doors bash
+   60  vim /etc/docker/daemon.json
+   61  cp /etc/docker/daemon.json daemon_kek.json
+   62  vim /etc/docker/daemon.json
+   63  sudo vim /etc/docker/daemon.json
+   64  sudo systemctl restart docker\n\n
+   65  sudo nvidia-docker run -it safety-doors bash
+   66  sudo nvidia-docker build -t safety-doors .
+   67  sudo nvidia-docker run -it safety-doors bash
+   68  ls
+   69  vim requirements.txt
+   70  ls
+   71  sudo nvidia-docker build -t safety-doors .
+   72  vim requirements.txt
+   73  sudo nvidia-docker run -it safety-doors bash
+   74  ls
+   75  vim requirements.txt
+   76  sudo nvidia-docker build -t safety-doors .
+   77  sudo nvidia-docker run -it safety-doors .
+   78  sudo nvidia-docker run -it safety-doors
+   79  vim Dockerfile
+   80  sudo nvidia-docker build -t safety-doors .
+   81  pip install -r /home/danil/PycharmProjects/Meta-PU/requirements.txt
+   82  pip install -r requirements.txt
+   83  pip install -r requirements.txt --no-deps
+   84  pip install --no-deps -r requirements.txt
+   85  pip install -r requirements.txt
+   86  pip install pprint
+   87  python3.7
+   88  sudo apt install python3.7
+   89  ^[[200~sudo apt update
+   90  sudo apt install software-properties-common
+   91  ^[[200~sudo apt update
+   92  sudo apt update
+   93  sudo apt install software-properties-common
+   94  sudo nvidia-docker run -it safety-doors .
+   95  sudo nvidia-docker run -it safety-doors 
+   96  ls
+   97  python requirements.txt
+   98  exit
+   99  sudo apt install python3.5
+  100  sudo apt install python@3.5
+  101  ls
+  102  cd ~/Projects
+  103  ls
+  104  git clone https://gitlab.com/safetydoors/SafetyDoorsService
+  105  ls
+  106  cd SafetyDoorsService
+  107  ls
+  108  cd ../
+  109  ls
+  110  cd SafetyDoorsService
+  111  ls
+  112  cd workflow
+  113  ls
+  114  cd d
+  115  cd docker
+  116  ls
+  117  docker-compose build
+  118  SUDO docker-compose build
+  119  sudo docker-compose build
+  120  docker-compose -V
+  121  docker-compose --version
+  122  sudo apt-get update docker-compose
+  123  sudo apt-get upgrate docker-compose
+  124  sudo apt-get upgrade docker-compose
+  125  docker-compose --version
+  126  docker-compose build
+  127  ls
+  128  cd ../
+  129  ls
+  130  cd ../
+  131  ls
+  132  cd ../
+  133  ls
+  134  cd SafetyDoorsService
+  135  git add .
+  136  git commit -m "Initial commit"
+  137  git config --global user.email "isynboy@gmail.com"
+  138  git add .
+  139  git commit -m "Initial commit"
+  140  git push
+  141  docker-compose --version
+  142  sudo apt-get upgrade docker-compose
+  143  ls
+  144  cd workflow
+  145  ls
+  146  cd docker
+  147  ls
+  148  docker-compose --version
+  149  sudo apt-get remove docker-compose
+  150  sudo dpkg-reconfigure libdvd-pkg
+  151  docker-compose 
+  152  pip install docker-compose 
+  153  docker-compose --versiob
+  154  docker-compose --version
+  155  docker-compose build
+  156  ls
+  157  git pull
+  158  sudo docker-compose build
+  159  docker-compose
+  160  docker-compose build
+  161  sudo docker-compose build
+  162  pip uninstall docker-compose 
+  163  apt-get install docker-compose
+  164  sudo apt-get install docker-compose
+  165  sudo apt remove docker-compose
+  166  sudo pip install docker-compose
+  167  sudo docker-compose up
+  168  cd docker
+  169  ls
+  170  cd ../
+  171  ls
+  172  chmod -R 777 logs
+  173  sudo docker-compose up
+  174  cd docker
+  175  ls
+  176  docker-compose up
+  177  sudo docker-compose up
+  178  ls
+  179  cd ../
+  180  ls
+  181  chmod -R 777 plugins
+  182  chmod -R 777 tests
+  183  chmod -R 777 dags
+  184  cd docker
+  185  ls
+  186  sudo docker-compose up
+  187  ls
+  188  cd configs
+  189  ls
+  190  cd ../
+  191  ls
+  192  cd configs
+  193  ls
+  194  cd ../
+  195  ls
+  196  cd ../
+  197  ls
+  198  docker-compose up
+  199  sudo docker-compose build 
+  200  ls
+  201  cd docker
+  202  ls
+  203  sudo docker-compose build
+  204  sudo docker-compose up
+  205  ls
+  206  cd ../
+  207  ls
+  208  cd logs
+  209  ls
+  210  cd ../
+  211  ls
+  212  cd plugins
+  213  ls
+  214  cd ../
+  215  ls
+  216  cd tests
+  217  ls
+  218  cd ../
+  219  ls
+  220  cd dags
+  221  ls
+  222  cd ../
+  223  ls
+  224  docker-compose build 
+  225  sudo docker-compose build 
+  226  cd ../
+  227  ls
+  228  cd workflow
+  229  ls
+  230  cd docker
+  231  ls
+  232  sudo docker-compose build 
+  233  sudo docker-compose up
+  234  sudo docker-compose build 
+  235  sudo docker-compose up
+  236  sudo docker ps
+  237  sudo docker exec -it 89207a893742 basg
+  238  sudo docker exec -it 89207a893742 bash
+  239  sudo docker-compose build 
+  240  ls
+  241  cd ../
+  242  ls
+  243  cd d
+  244  sudo docker-compose build 
+  245  cd docker
+  246  ls
+  247  sudo docker-compose build 
+  248  sudo docker-compose up
+  249  pwd
+  250  sudo docker-compose build 
+  251  sudo docker-compose up
+  252  sudo docker-compose build 
+  253  sudo docker-compose up
+  254  sudo docker-compose build 
+  255  sudo docker-compose up
+  256  sudo docker-compose build 
+  257  sudo docker-compose up
+  258  sudo docker-compose build 
+  259  sudo docker-compose up
+  260  sudo docker-compose build 
+  261  sudo docker-compose up
+  262  sudo docker-compose build 
+  263  sudo docker-compose up
+  264  ls
+  265  cd workflow
+  266  ls
+  267  cd Projects
+  268  ls
+  269  cd SafetyDoorsService
+  270  ls
+  271  cd workflow
+  272  ls
+  273  sudo rm -r postgres_storage
+  274  sudo docker-compose build 
+  275  sudo rm -r postgres_storage
+  276  sudo docker-compose up
+  277  sudo docker-compose build 
+  278  sudo docker-compose up
+  279  sudo docker-compose build 
+  280  sudo docker-compose up
+  281  sudo docker-compose build 
+  282  sudo docker-compose up
+  283  sudo docker-compose build 
+  284  sudo docker-compose up
+  285  sudo docker-compose build 
+  286  sudo docker-compose up
+  287  docker network create SafetyDoors
+  288  sudo docker-compose up
+  289  sudo docker network create SafetyDoors
+  290  sudo docker-compose up
+  291  ls
+  292  cd ../
+  293  ls
+  294  cd ../
+  295  ls
+  296  cd ../
+  297  ls
+  298  cd SafetyDoorsService
+  299  ls
+  300  cd handler
+  301  ls
+  302  cd docker
+  303  ls
+  304  cd ../
+  305  ls
+  306  cd docker
+  307  ls
+  308  docker-compose build
+  309  sudo docker-compose build
+  310  df -h
+  311  sudo docker-compose build
+  312  sudo docker-compose up
+  313  sudo docker-compose --remove-orphans up
+  314  sudo docker-compose --remove-orphans 
+  315  sudo docker-compose up
+  316  ls
+  317  cd ../
+  318  ls
+  319  cd ../
+  320  ls
+  321  sudo rmdir app
+  322  ls
+  323  cd ../
+  324  ls
+  325  cd SafetyDoorsService
+  326  ls
+  327  cd app
+  328  ls
+  329  cd ../
+  330  ls
+  331  rmdir app
+  332  ls
+  333  cd handler
+  334  ls
+  335  cd docker
+  336  ls
+  337  sudo docker-compose up
+  338  ls
+  339  cd ~/Projects
+  340  ls
+  341  cd SafetyDoorsService
+  342  ls
+  343  cd handler
+  344  ls
+  345  cd app
+  346  ls
+  347  cd ../docker
+  348  ls
+  349  sudo docker-compose up
+  350  ls
+  351  cd ~/Projects/SafetyDoorsService
+  352  ls
+  353  cd workflow
+  354  ls
+  355  cd docker
+  356  ls
+  357  sudo docker-compose up
+  358  cd ../
+  359  ls
+  360  cd ../
+  361  ls
+  362  python request.py
+  363  python3 request.py
+  364  python3 request.py localhost:8090/upload ~/PycharmProjects/parsePCD/cloud_0_1620684056300559.pcd
+  365  python3 request.py http://localhost:8090/upload ~/PycharmProjects/parsePCD/cloud_0_1620684056300559.pcd
+  366  sudo docker-compose up
+  367  python3 request.py http://localhost:8090/upload ~/PycharmProjects/parsePCD/cloud_0_1620684056300559.pcd
+  368  sudo docker-compose up
+  369  python3 request.py http://localhost:8090/upload ~/PycharmProjects/parsePCD/cloud_0_1620684056300559.pcd
+  370  sudo docker-compose up
+  371  python3 request.py http://localhost:8090/upload ~/PycharmProjects/parsePCD/cloud_0_1620684056300559.pcd
+  372  sudo docker-compose up
+  373  cd ~/PycharmProjects/parsePCD
+  374  ls
+  375  python
+  376  python3
+  377  ls
+  378  git add .
+  379  ls
+  380  git commit -m "handler"
+  381  git push 
+  382  ssh 10.100.10.53
+  383  ssh rinat@10.100.10.53
+  384  ssh rinat@10.100.10.52
+  385  ssh rinat@10.100.10.53
+  386  ls
+  387  cd ../
+  388  ls
+  389  cd SafetyDoorsService
+  390  ls
+  391  cd handler
+  392  ls
+  393  cd app
+  394  ls
+  395  cd ../docker
+  396  ls
+  397  cd ~/Projects/SafetyDoorsService/handler
+  398  cd docker
+  399  ls
+  400  sudo docker-compose up
+  401  sudo docker-compose build
+  402  sudo docker-compose up
+  403  ls
+  404  cd ~/Projects/SafetyDoorsService/workflow
+  405  ls
+  406  cd docker
+  407  sudo docker-compose up
+  408  ls
+  409  cd ../
+  410  ls
+  411  cd ../
+  412  ls
+  413  cd ../
+  414  ls
+  415  git clone https://gitlab.com/2284769meow/panel
+  416  ls
+  417  cd panel
+  418  ls
+  419  cd ../
+  420  ls
+  421  cd panel
+  422  ls
+  423  git clone https://github.com/obsidiandynamics/kafdrop
+  424  ls
+  425  cd kafdrop
+  426  ls
+  427  cd doc
+  428  cd docker-compose
+  429  ls
+  430  cd kafka-kafdrop
+  431  ls
+  432  cat docker-compose.yaml
+  433  ls
+  434  cd ../
+  435  ls
+  436  cd ../
+  437  cd ~/Projects/panel
+  438  ls
+  439  cd kafdrop
+  440  ls
+  441  sudo docker-compose build
+  442  sudo docker-compose up
+  443  ls
+  444  sudo docker-compose up
+  445  ls
+  446  cd ../
+  447  ls
+  448  cd SafetyDoorsService
+  449  ls
+  450  python request.py http://localhost:8080 /home/danil/PycharmProjects/parsePCD/cloud_0_1620684056300559.pcd
+  451  python3 request.py http://localhost:8080 /home/danil/PycharmProjects/parsePCD/cloud_0_1620684056300559.pcd
+  452  python3 request.py http://localhost:8090 /home/danil/PycharmProjects/parsePCD/cloud_0_1620684056300559.pcd
+  453  sudo docker-compose up
+  454  python3 request.py http://localhost:8090/ /home/danil/PycharmProjects/parsePCD/cloud_0_1620684056300559.pcd
+  455  python3 request.py http://localhost:8090/upload /home/danil/PycharmProjects/parsePCD/cloud_0_1620684056300559.pcd
+  456  ls
+  457  cd ../
+  458  ls
+  459  cd panel
+  460  ls
+  461  python test.py
+  462  python3 test.py
+  463  pip install confluent_kafka
+  464  python3 test.py
+  465  sudo docker-compose up
+  466  ls
+  467  cd ../
+  468  ls
+  469  cd SafetyDoorsPipeline
+  470  ls
+  471  cd ../SafetyDoorsService
+  472  ls
+  473  python request.p http://localhost:8080 /home/danil/PycharmProjects/parsePCD/cloud_0_1620684056300559.pcd      
+  474  python3 request.p http://localhost:8080 /home/danil/PycharmProjects/parsePCD/cloud_0_1620684056300559.pcd      
+  475  python3 request.py http://localhost:8080 /home/danil/PycharmProjects/parsePCD/cloud_0_1620684056300559.pcd      
+  476  python3 request.py http://localhost:8090 /home/danil/PycharmProjects/parsePCD/cloud_0_1620684056300559.pcd      
+  477  python3 request.py http://localhost:8090/upload /home/danil/PycharmProjects/parsePCD/cloud_0_1620684056300559.pcd      
+  478  sudo docker-compose up
+  479  python3 request.py http://localhost:8090/upload /home/danil/PycharmProjects/parsePCD/cloud_0_1620684056300559.pcd      
+  480  ls
+  481  cd ../panel
+  482  ;s
+  483  ls
+  484  rm -rf kafka
+  485  ls
+  486  cd kafdrop
+  487  ls
+  488  cd ../
+  489  ls
+  490  git add .
+  491  git commit -m "Initial commit"
+  492  git push --set-upstream https://gitlab.com/2284769meow/panel master
+  493  sudo snap install termius-app\n
+  494  ls
+  495  rm -rf .git
+  496  ls
+  497  git init .
+  498  git add .
+  499  git commit -m "Initial commit"
+  500  git push --set-upstream https://gitlab.com/2284769meow/panel master
+  501  pwd
+  502  ls
+  503  sudo docker-compose up
+  504  python3 request.py http://localhost:8090/upload /home/danil/PycharmProjects/parsePCD/cloud_0_1620684056300559.pcd      
+  505  cd ~/Projects/SafetyDoorsService
+  506  python3 request.py http://localhost:8090/upload /home/danil/PycharmProjects/parsePCD/cloud_0_1620684056300559.pcd      
+  507  cd ../
+  508  ls
+  509  cd panel
+  510  ls
+  511  vim test.py
+  512  sudo docker-compose up
+  513  ls
+  514  python3 request.py http://localhost:8090/upload /home/danil/PycharmProjects/parsePCD/cloud_0_1620684056300559.pcd      
+  515  ls
+  516  cd ../
+  517  ls
+  518  cd SafetyDoorsPipeline
+  519  ls
+  520  cd ../
+  521  ls
+  522  cd SafetyDoorsService
+  523  ls
+  524  python3 request.py http://localhost:8090/upload /home/danil/PycharmProjects/parsePCD/cloud_0_1620684056300559.pcd      
+  525  ls
+  526  cd ../
+  527  ls
+  528  cd SafetyDoorsService
+  529  ls
+  530  cd ../
+  531  ls
+  532  cd panel
+  533  ls
+  534  vim test.py
+  535  python test.py
+  536  python3 test.py
+  537  vim test.py
+  538  python3 test.py
+  539  vim test.py
+  540  python3 test.py
+  541  vim test.py
+  542  python3 test.py
+  543  sudo docker-compose up
+  544  python3 test.py
+  545  ls
+  546  cd ../
+  547  ls
+  548  sudo docker-compose up
+  549  ls
+  550  cd ../
+  551  ls
+  552  cd SafetyDoorsService
+  553  ls
+  554  python3 request.py http://localhost:8090/upload /home/danil/PycharmProjects/parsePCD/cloud_0_1620684056300559.pcd      
+  555  ls
+  556  sudo apt-get install pcl
+  557  cd pcl
+  558  ls
+  559  mkdir byukd
+  560  mkdir build
+  561  cd build
+  562  cmake ..
+  563  EXIT
+  564  exit
+  565  sudo apt install libpcl-dev
+  566  ls
+  567  pcl_convert_pcd_ascii_binary
+  568  pccardctl
+  569  sudo apt install pcl-tools 
+  570  pcl_convert_pcd_ascii_binary
+  571  ;s
+  572  ls
+  573  cd ~/Projects
+  574  ls
+  575  cd SafetyDoorsPipeline
+  576  ls
+  577  cd utils
+  578  ls
+  579  touch cloud_point_converter.py
+  580  subl cloud_point_converter.py
+  581  ls
+  582  cd utils
+  583  ls
+  584  cp ~/PycharmProjects/parsePCD/cloud_0_1620684056300559.pcd input
+  585  python pcd_to_bin.py
+  586  exit
+  587  cd ~/Projects/SafetyDoorsPipeline
+  588  ls
+  589  sudo docker-compose build
+  590  reboot
+  591  ping google.com
+  592  ls
+  593  cd ~/Projects
+  594  ls
+  595  cd SafetyDoorsYolov5
+  596  ls
+  597  docker-compose build 
+  598  sudo docker-compose build
+  599  sudo docker-compose up
+  600  python 
+  601  python3
+  602  sudo docker-compose build
+  603  sudo docker-compose up
+  604  sudo docker build -t yolo .
+  605  sudo nvidia-docker build -t yolo .
+  606  ls
+  607  cd ../
+  608  ls
+  609  sudo nvidia-docker build -t yolo .
+  610  sudo docker run -it yolo .
+  611  sudo nvidia-docker run -it yolo .
+  612  ls
+  613  sudo nvidia-docker run -it yolo
+  614  sudo nvidia-docker build -it yolo .
+  615  sudo nvidia-docker build -t yolo .
+  616  sudo nvidia-docker run -it yolo
+  617  ls
+  618  docker-compose build
+  619  sudo docker-compose build
+  620  ping google.com
+  621  sudo docker-compose build
+  622  sudo nvidia-docker build -t yolo .
+  623  docker prune 
+  624  sudo docker prune 
+  625  sudo docker purge
+  626  sudo docker system prune
+  627  sudo nvidia-docker build -t yolo .
+  628  docker rm -vf $(docker ps -a -q)
+  629  $ docker system prune --all
+  630  sudo docker system prune --all
+  631  sudo nvidia-docker build -t yolo .
+  632  sudo docker pull ultralytics/yolov5:latest
+  633  sudo docker run -it ultralytics/yolov5:latest bash
+  634  sudo nvidia-docker run --ipc=host -it ultralytics/yolov5:latest bash
+  635  copy -R shared yolo
+  636  cp -R shared yolo
+  637  cd yolo
+  638  ls
+  639  sudo docker build -t yolo .
+  640  sudo docker run -it yolo
+  641  sudo nvidia-docker run -it yolo
+  642  sudo nvidia-docker run --ipc=host -it yolo
+  643  ls
+  644  sudo docker-compose build
+  645  sudo docker-compose up
+  646  ls
+  647  cd results
+  648  ls
+  649  cd detect
+  650  ls
+  651  cd exp
+  652  ls
+  653  cd ../../
+  654  ls
+  655  cd ../
+  656  ls
+  657  cd shared
+  658  ls
+  659  cd data
+  660  ls
+  661  cd train
+  662  ls
+  663  unzip task_projection_detection-2021_05_22_17_37_23-coco\ 1.0.zip
+  664  ;s
+  665  ls
+  666  rm task_projection_detection-2021_05_22_17_37_23-coco\ 1.0.zip
+  667  ;s
+  668  ls
+  669  cd annotations
+  670  ls
+  671  cat instances_default.json
+  672  cd ../
+  673  ls
+  674  cd ../
+  675  ls
+  676  cd ../
+  677  ls
+  678  ;s
+  679  ls
+  680  cd ../
+  681  ls
+  682  cd ../
+  683  ls
+  684  cd app
+  685  ls
+  686  cd ../
+  687  ls
+  688  cd shared
+  689  ls
+  690  cd data
+  691  ls
+  692  cd ../
+  693  ;ls
+  694  cd ../
+  695  ls
+  696  cd yolo
+  697  ls
+  698  cd shared
+  699  ls
+  700  cd data
+  701  ls
+  702  cd train
+  703  ls
+  704  cd annotations
+  705  ls
+  706  cd ../
+  707  ls
+  708  cd images
+  709  ls
+  710  cd ../
+  711  ls
+  712  cd annotations
+  713  ls
+  714  cd ../
+  715  ls
+  716  unzip task_projection_detection-2021_05_22_17_37_23-yolo\ 1.1.zip
+  717  ls
+  718  rm task_projection_detection-2021_05_22_17_37_23-yolo\ 1.1.zip
+  719  ls
+  720  cd ../
+  721  ls
+  722  cd ../
+  723  ls
+  724  cd ../
+  725  ls
+  726  sudo docker-compose up
+  727  cd Projects
+  728  ls
+  729  cd SafetyDoorsYolov5
+  730  ls
+  731  cd yolo
+  732  ls
+  733  sudo docker-compose up
+  734  ls
+  735  vim docker-compose.yml
+  736  sudo docker-compose up
+  737  df -h
+  738  ls
+  739  vim docker-compose.yml
+  740  sudo docker-compose up
+  741  ls
+  742  cd ../
+  743  ls
+  744  cd ../
+  745  ls
+  746  cd SafetyDoorsYolov5
+  747  git add .
+  748  vim .gitignore
+  749  git add .
+  750  cd shared
+  751  ls
+  752  cd ../
+  753  ls
+  754  vim .gitignore
+  755  git add .
+  756  git commit -m "yolo"
+  757  git push
+  758  ssh root@176.57.77.165 -p 7771
+  759  ssh sudo@176.57.77.165 -p 7771
+  760  ssh kb@176.57.77.165 -p 7771
+  761  cd ~/Projects/SafetyDoorsYolov5
+  762  ls
+  763  cd yolo
+  764  ls
+  765  cd shared
+  766  ls
+  767  cd data
+  768  ls
+  769  cd ../
+  770  ls
+  771  cd ../
+  772  ls
+  773  scp -r results kb@176.57.77.165:/home/kb/SafetyDoors/BE7D124CBFF/yolo -p 7771
+  774  scp -r results kb@176.57.77.165:/home/kb/SafetyDoors/BE7D124CBFF/yolo
+  775  scp -p 7771 -r results kb@176.57.77.165:/home/kb/SafetyDoors/BE7D124CBFF/yolo
+  776  scp -P 7771 -r results kb@176.57.77.165:/home/kb/SafetyDoors/BE7D124CBFF/yolo
+  777  ls
+  778  scp -P 7771 -r shared kb@176.57.77.165:/home/kb/SafetyDoors/BE7D124CBFF/yolo
+  779  ls
+  780  cd ../
+  781  ls
+  782  cd yolo
+  783  vim docker-compose.yml
+  784  docker-compose up
+  785  sduo docker-compose up
+  786  sudo docker-compose up
+  787  nvidia-smi
+  788  exit
+  789  ls
+  790  vim docker-compose.yml
+  791  ls
+  792  ls shared/data/train/obj_train_data/
+  793  vim docker-compose.yml
+  794  ls
+  795  cd results
+  796  ls
+  797  cd detect
+  798  ls
+  799  rm -r exp
+  800  sudo rm -r exp
+  801  cd ../
+  802  ls
+  803  cd ../
+  804  ls
+  805  vim docker-compose.yml
+  806  docker-compose up
+  807  sudo docker-compose up
+  808  cat docker-compose.yml
+  809  vim docker-compose.yml
+  810  sudo docker-compose up
+  811  vim docker-compose.yml
+  812  sudo docker-compose up
+  813  ls
+  814  vim docker-compose.yml
+  815  sudo docker-compose up
+  816  vim docker-compose.yml
+  817  ls
+  818  vim docker-compose.yml
+  819  sudo docker-compose up
+  820  ls
+  821  cd shared
+  822  ls
+  823  pwd
+  824  cp ../yolo/shared
+  825  cp cloud_0_1620669639712724.pcd.jpg ../yolo/shared
+  826  ls
+  827  cd ../
+  828  ls
+  829  sudo docker-compose up
+  830  vim docker-compose.yml
+  831  sudo docker-compose up
+  832  python
+  833  python3
+  834  pip install torch
+  835  cd ~/Projects/SafetyDoorsYolov5
+  836  ls
+  837  cd shared
+  838  ls
+  839  cd data
+  840  ls
+  841  cd ../
+  842  ls
+  843  cd ../
+  844  ls
+  845  cd yolo
+  846  ls
+  847  cd shared
+  848  ls
+  849  cd weights/
+  850  ls
+  851  cd ../
+  852  ls
+  853  cd data
+  854  ls
+  855  cd train
+  856  ls
+  857  cd ../../
+  858  ls
+  859  cd ../
+  860  ls
+  861  cd results
+  862  ls
+  863  cd train
+  864  ls
+  865  cd exp
+  866  ls
+  867  cd ../
+  868  l;s
+  869  sl
+  870  ;s
+  871  ls
+  872  cd exp8/
+  873  ls
+  874  python
+  875  python3
+  876  ls
+  877  cd weights
+  878  ls
+  879  python
+  880  python3
+  881  pip install pandas
+  882  python3
+  883  pip install opencv2
+  884  pip install opencv-python
+  885  python3
+  886  pip install tqdm
+  887  python3
+  888  pip install torchvision
+  889  python3
+  890  pip install matplotlib
+  891  python3
+  892  pip install seaborn
+  893  python3
+  894  ls
+  895  history
+  896  ssh kb@176.57.77.165 -p 7771q
+  897  ssh kb@176.57.77.165 -p 7771
+  898  ls
+  899  history
+  900  scp -P 7771 -r last.pt kb@176.57.77.165:/home/kb/SafetyDoors/weights.pt
+  901  git pull
+  902  ls
+  903  cd SafetyDoorsService
+  904  ls
+  905  git pull
+  906  cd ../
+  907  ls
+  908  mkdir new
+  909  ls
+  910  cd new
+  911  git clone https://https://gitlab.com/2284769meow/service
+  912  git clone https://gitlab.com/2284769meow/service
+  913  ls
+  914  cd workflow
+  915  ls
+  916  cd docker
+  917  ls
+  918  sudo docker-compose up
+  919  ls
+  920  cd ~/Projects/new
+  921  ls
+  922  cd service
+  923  ls
+  924  cd handler
+  925  ls
+  926  cd docker
+  927  sudo docker-compose up -d
+  928  exit
+  929  docker ps
+  930  sudo docker ps
+  931  cd ~/Projects/SafetyDoorsService/handler
+  932  cd ../
+  933  ls
+  934  cd new
+  935  ls
+  936  cd service
+  937  ls
+  938  cd handler
+  939  ls
+  940  cd app
+  941  ls
+  942  cd ../
+  943  ls
+  944  cd ../
+  945  ls
+  946  python request.py http://localhost:8080 /home/danil/PycharmProjects/parsePCD/cloud_0_1620684056300559.pcd
+  947  python3 request.py http://localhost:8080 /home/danil/PycharmProjects/parsePCD/cloud_0_1620684056300559.pcd
+  948  python3 request.py http://localhost:8080/upload /home/danil/PycharmProjects/parsePCD/cloud_0_1620684056300559.pcd
+  949  python3 request.py http://localhost:8090/upload /home/danil/PycharmProjects/parsePCD/cloud_0_1620684056300559.pcd
+  950  ls
+  951  pwd
+  952  cd ~/Projects/new
+  953  ls
+  954  cd service
+  955  ls
+  956  cd workflow
+  957  ls
+  958  cd docker
+  959  ls
+  960  sudo docker-compose up
+  961  sudo docker-compose build
+  962  sudo docker-compose up
+  963  ls
+  964  sudo dockerp s
+  965  sudo docker ps
+  966  sudo docker kill a18ba6f05c99
+  967  ls
+  968  cd handler
+  969  ls
+  970  cd docker
+  971  ls
+  972  sudo docker-compose up
+  973  sudo docker-compose up 
+  974  pwd
+  975  sudo docker-compose up 
+  976  ls
+  977  sudo docker-compose down
+  978  sudo docker-compose up 
+  979  cd ~/Projects/new/service/
+  980  ls
+  981  python3 request.py http://localhost:8090/upload /home/danil/PycharmProjects/parsePCD/cloud_0_1620684056300559.pcd\n
+  982  sudo docker-compose up 
+  983  python3 request.py http://localhost:8090/upload /home/danil/PycharmProjects/parsePCD/cloud_0_1620684056300559.pcd\n
+  984  sudo docker-compose up
+  985  python3 request.py http://localhost:8090/upload /home/danil/PycharmProjects/parsePCD/cloud_0_1620684056300559.pcd\n
+  986  sudo docker-compose up 
+  987  python3 request.py http://localhost:8090/upload /home/danil/PycharmProjects/parsePCD/cloud_0_1620684056300559.pcd\n
+  988  sudo docker-compose up 
+  989  python3 request.py http://localhost:8090/upload /home/danil/PycharmProjects/parsePCD/cloud_0_1620684056300559.pcd\n
+  990  ls
+  991  cd ../
+  992  ls
+  993  cd ../
+  994  ls
+  995  cd payloads
+  996  ls
+  997  sudo rm -rf *
+  998  mkdir tmp
+  999  ls
+ 1000  cd ../
+ 1001  ls
+ 1002  cd ../
+ 1003  ls
+ 1004  cd service
+ 1005  ls
+ 1006  cd workflow/docker
+ 1007  ls
+ 1008  sudo docker-compose up
+ 1009  sudo docker-compose up 
+ 1010  python3 request.py http://localhost:8090/upload /home/danil/PycharmProjects/parsePCD/cloud_0_1620684056300559.pcd\n
+ 1011  ls
+ 1012  cd ../
+ 1013  ls
+ 1014  cd ../
+ 1015  ls
+ 1016  chmod -R 777 payloads
+ 1017  sudo chmod -R 777 payloads
+ 1018  cd workflow/docker
+ 1019  ls
+ 1020  sudo docker-compose up
+ 1021  cd ../
+ 1022  ls
+ 1023  cd ../
+ 1024  ls
+ 1025  cd handler
+ 1026  sudo docker-compose up
+ 1027  cd docker
+ 1028  sudo docker-compose up
+ 1029  python3 request.py http://localhost:8090/upload /home/danil/PycharmProjects/parsePCD/cloud_0_1620684056300559.pcd\n
+ 1030  use
+ 1031  useradd -aG danil docker
+ 1032  useradd -aG docker danil
+ 1033  useradd -aG danil 
+ 1034  useradd -G danil 
+ 1035  ls
+ 1036  docker-compose up
+ 1037  ls
+ 1038  docker-compose up
+ 1039  ls
+ 1040  sudo docker-compose up
+ 1041  python3 request.py http://localhost:8090/upload /home/danil/PycharmProjects/parsePCD/cloud_0_1620684056300559.pcd\n
+ 1042  sudo docker-compose build
+ 1043  sudo docker-compose up
+ 1044  python3 request.py http://localhost:8090/upload /home/danil/PycharmProjects/parsePCD/cloud_0_1620684056300559.pcd\n
+ 1045  sudo groupadd docker
+ 1046  sudo gpasswd -a $USER docker
+ 1047  lsa
+ 1048  ls
+ 1049  cd ../
+ 1050  ls
+ 1051  cd ../
+ 1052  ls
+ 1053  sudo rm -rf payloads
+ 1054  mkdir payloads
+ 1055  mkdir payloads/tmp
+ 1056  cd handler/docker
+ 1057  ls
+ 1058  docker-compose up
+ 1059  pip install docker-compose 
+ 1060  docker-compose 
+ 1061  docker-compose build
+ 1062  source ~/.bashrc
+ 1063  exit
+ 1064  s
+ 1065  ls
+ 1066  cd ~/Projects/new/
+ 1067  docker
+ 1068  docker ps
+ 1069  exit
+ 1070  reboot
+ 1071  docker ps
+ 1072  docker kill c9ad9226f340 f08aa4632848 51cebeed2d4b 123b3be4d7f1 d0a6c33c9ce1 1909bc781f12 f7f86484cea5
+ 1073  ls
+ 1074  cd ~/Projects/new
+ 1075  ls
+ 1076  cd service
+ 1077  ls
+ 1078  cd handler
+ 1079  pwd
+ 1080  cd /home/danil/Projects/new/service/handler
+ 1081  ls
+ 1082  cd docker
+ 1083  ls
+ 1084  docker-compose up
+ 1085  ls
+ 1086  cd ../
+ 1087  ls
+ 1088  cd workflow/docker
+ 1089  ls
+ 1090  docker-compose up
+ 1091  ls
+ 1092  cd ~/Projects/new/service
+ 1093  ls
+ 1094  history
+ 1095  ls
+ 1096  python3 request.py http://localhost:8090/upload /home/danil/PycharmProjects/parsePCD/cloud_0_1620684056300559.pcd
+ 1097  ls
+ 1098  cd ../
+ 1099  ls
+ 1100  cd s
+ 1101  ls
+ 1102  cd s
+ 1103  cd service
+ 1104  ls
+ 1105  cd payloads
+ 1106  ;s
+ 1107  ls
+ 1108  cd tmp
+ 1109  ls
+ 1110  cd 47efc68b-aacb-4d7a-9f02-c525420eb7a9
+ 1111  ls
+ 1112  cd ../\n: 1621726488:0;ls
+ 1113  rm pointcloud.pcd
+ 1114  touch govno
+ 1115  ls
+ 1116  cd ../
+ 1117  ls
+ 1118  cd ../
+ 1119  ls
+ 1120  cd ../
+ 1121  ls
+ 1122  ;d
+ 1123  ls
+ 1124  cd handler
+ 1125  ls
+ 1126  cd docker
+ 1127  ls
+ 1128  vim docker-compose.yaml
+ 1129  cd ../
+ 1130  ls
+ 1131  cd ../
+ 1132  ls
+ 1133  cd workflow
+ 1134  ls
+ 1135  cd docker
+ 1136  ls
+ 1137  vim docker-compose.yaml
+ 1138  docker-compose up
+ 1139  ls
+ 1140  cd ../
+ 1141  ls
+ 1142  cd plugins
+ 1143  ls
+ 1144  cd ../
+ 1145  ls
+ 1146  cd ../
+ 1147  ls
+ 1148  cd payloads
+ 1149  ls
+ 1150  cd tmp
+ 1151  ls
+ 1152  touch sfd
+ 1153  rm sfd
+ 1154  ls
+ 1155  docker-compose up
+ 1156  ls
+ 1157  cd ../
+ 1158  ls
+ 1159  cd ../
+ 1160  ls
+ 1161  history
+ 1162  python3 request.py http://localhost:8090/upload /home/danil/PycharmProjects/parsePCD/cloud_0_1620684056300559.pcd
+ 1163  ls
+ 1164  docker-compose up
+ 1165  python3 request.py http://localhost:8090/upload /home/danil/PycharmProjects/parsePCD/cloud_0_1620684056300559.pcd
+ 1166  docker-compose build 
+ 1167  sudo docker-compose up
+ 1168  docker-compose up
+ 1169  python3 request.py http://localhost:8090/upload /home/danil/PycharmProjects/parsePCD/cloud_0_1620684056300559.pcd
+ 1170  docker ps
+ 1171  docker exec -it 9d1c0316e255 bash
+ 1172  docker-compose build 
+ 1173  docker-compose up
+ 1174  docker exec -it 9d1c0316e255 bash
+ 1175  python3 request.py http://localhost:8090/upload /home/danil/PycharmProjects/parsePCD/cloud_0_1620684056300559.pcd
+ 1176  docker-compose up
+ 1177  python3 request.py http://localhost:8090/upload /home/danil/PycharmProjects/parsePCD/cloud_0_1620684056300559.pcd\n: 1621728298:0;python3 request.py http://localhost:8090/upload /home/danil/PycharmProjects/parsePCD/cloud_0_1620684056300559.pcd
+ 1178  docker-compose up
+ 1179  python3 request.py http://localhost:8090/upload /home/danil/PycharmProjects/parsePCD/cloud_0_1620684056300559.pcd
+ 1180  docker-compose up
+ 1181  python3 request.py http://localhost:8090/upload /home/danil/PycharmProjects/parsePCD/cloud_0_1620684056300559.pcd
+ 1182  docker-compose up
+ 1183  python3 request.py http://localhost:8090/upload /home/danil/PycharmProjects/parsePCD/cloud_0_1620684056300559.pcd
+ 1184  docker-compose up
+ 1185  python3 request.py http://localhost:8090/upload /home/danil/PycharmProjects/parsePCD/cloud_0_1620684056300559.pcd
+ 1186  ls
+ 1187  ;
+ 1188  ls
+ 1189  cd ../
+ 1190  ls
+ 1191  cd s
+ 1192  cd service
+ 1193  ls
+ 1194  mkdir yolo
+ 1195  cd yolo
+ 1196  ls
+ 1197  mkdir docker
+ 1198  git clone https://github.com/robmarkcole/yolov5-flask .
+ 1199  git clone https://github.com/robmarkcole/yolov5-flask 
+ 1200  ls
+ 1201  cd yolov5-flask
+ 1202  ls
+ 1203  rm -rf .git
+ 1204  rm .gitignore
+ 1205  ls
+ 1206  cd ../
+ 1207  ls
+ 1208  rm -r yolov5-flask
+ 1209  rm -r docker
+ 1210  git clone https://github.com/robmarkcole/yolov5-flask .
+ 1211  ls
+ 1212  mkdir docker
+ 1213  rm -r static
+ 1214  rm -r templates
+ 1215  ls
+ 1216  rm -r docs
+ 1217  rm LICENSE
+ 1218  rm README.md 
+ 1219  ls
+ 1220  mv Dockerfile.broken docker
+ 1221  ls
+ 1222  mv requirements.txt docker
+ 1223  ls
+ 1224  rm -r tests
+ 1225  ls
+ 1226  cd ..
+ 1227  ls
+ 1228  cd ..
+ 1229  ls
+ 1230  cd yolo
+ 1231  ls
+ 1232  cd docker
+ 1233  docker-compose build
+ 1234  ls
+ 1235  vim ../../../SafetyDoorsYolov5/docker-compose.yml
+ 1236  vim ../../../SafetyDoorsYolov5/Dockerfile
+ 1237  ls
+ 1238  cd ../
+ 1239  ls
+ 1240  cd ../
+ 1241  ls
+ 1242  cd ../
+ 1243  ls
+ 1244  cd SafetyDoorsYolov5
+ 1245  cd yolo
+ 1246  ls
+ 1247  vim docker-compose.yml
+ 1248  cd ../
+ 1249  ls
+ 1250  cd ../
+ 1251  ls
+ 1252  cd new
+ 1253  ls
+ 1254  cd service
+ 1255  ls
+ 1256  cd yolo
+ 1257  cat docker
+ 1258  ls
+ 1259  cd docker
+ 1260  ld
+ 1261  ls
+ 1262  vim Docker
+ 1263  vim Dockerfile
+ 1264  ;s
+ 1265  ls
+ 1266  docker-compose build
+ 1267  docker-compose up
+ 1268  vim docker-compose.yml
+ 1269  docker-compose up
+ 1270  docker ps
+ 1271  cat docker-compose.yml
+ 1272  cat .env
+ 1273  docker-compose up
+ 1274  vim docker-compose.yml
+ 1275  vim ../restapi.py
+ 1276  docker-compose up
+ 1277  vim docker-compose.yml
+ 1278  vim .env
+ 1279  vim ../restapi.py
+ 1280  vim docker-compose.yml
+ 1281  docker-compose build
+ 1282  docker-compose up
+ 1283  vim ../restapi.py
+ 1284  docker-compose up
+ 1285  cd ~/Projects/SafetyDoorsYolov5
+ 1286  ;s
+ 1287  ls
+ 1288  cd yolo
+ 1289  ls
+ 1290  cd results
+ 1291  ;s
+ 1292  ls
+ 1293  cd ../
+ 1294  ls
+ 1295  cd shared
+ 1296  ls
+ 1297  curl -X POST -F image=cloud_0_1620669639712724.pcd.jpg 'http://localhost:5000/v1/object-detection/yolov5s'
+ 1298  curl -X POST -F image=@cloud_0_1620669639712724.pcd.jpg 'http://localhost:5000/v1/object-detection/yolov5s'
+ 1299  touch scr.py
+ 1300  vim scr.py
+ 1301  python scr.py
+ 1302  python3 scr.py
+ 1303  vim scr.py
+ 1304  python3 scr.py
+ 1305  vim scr.py
+ 1306  python3 scr.py
+ 1307  curl -X POST -F image=@cloud_0_1620669639712724.pcd.jpg 'http://localhost:5000/v1/object-detection/yolov5s'
+ 1308  ;s
+ 1309  ls
+ 1310  cd ../
+ 1311  ls
+ 1312  cd ~/Projects/SafetyDoorsYolov5/yolo
+ 1313  ls
+ 1314  vim docker-compose.yml
+ 1315  ls
+ 1316  cd shared
+ 1317  ls
+ 1318  cp data/coco.yml data2
+ 1319  cd data2
+ 1320  ls
+ 1321  vim coco.yml
+ 1322  ls
+ 1323  cd train
+ 1324  ls
+ 1325  vim train.txt
+ 1326  pwd
+ 1327  cd ../
+ 1328  ls
+ 1329  cd ../
+ 1330  ls
+ 1331  cd ../
+ 1332  ls
+ 1333  docker-compose up
+ 1334  cd results
+ 1335  ls
+ 1336  cd ../shared
+ 1337  ls
+ 1338  cat scr.py
+ 1339  docker-compose up
+ 1340  ls
+ 1341  cd ~/Projects/new/service
+ 1342  ls
+ 1343  cd workflow
+ 1344  ls
+ 1345  cd docker
+ 1346  ls
+ 1347  docker-compose up
+ 1348  ;s
+ 1349  ls
+ 1350  cd ~/Projects/new/service
+ 1351  ls
+ 1352  cd handler
+ 1353  ls
+ 1354  cd docker
+ 1355  ls
+ 1356  docker-compose up
+ 1357  cd Projects
+ 1358  ls
+ 1359  cd new
+ 1360  ls
+ 1361  cd service
+ 1362  ls
+ 1363  cd yolo
+ 1364  ls
+ 1365  cd docker
+ 1366  ls
+ 1367  docker-compose up
+ 1368  cd results/train/exp9/weights
+ 1369  ls
+ 1370  cd ../
+ 1371  ls
+ 1372  cd ../
+ 1373  ls
+ 1374  cd exp13
+ 1375  ls
+ 1376  cd weights
+ 1377  ls
+ 1378  cp last.pt ~/Projects/new/service/yolo/shared/weights/last2.pt
+ 1379  cp best.pt ~/Projects/new/service/yolo/shared/weights/best2.pt
+ 1380  exit
+ 1381  docker-compose up
+ 1382  docker-compose build
+ 1383  sudo docker-compose up
+ 1384  docker-compose up
+ 1385  ls
+ 1386  cd ~/Projects
+ 1387  ls
+ 1388  cd new
+ 1389  ls
+ 1390  cd s
+ 1391  cd service
+ 1392  ls
+ 1393  history
+ 1394  python3 request.py http://localhost:8090/upload /home/danil/PycharmProjects/parsePCD/cloud_0_1620684056300559.pcd
+ 1395  docker-compose up
+ 1396  python3 request.py http://localhost:8090/upload /home/danil/PycharmProjects/parsePCD/cloud_0_1620684056300559.pcd
+ 1397  docker-compose up
+ 1398  python3 request.py http://localhost:8090/upload /home/danil/PycharmProjects/parsePCD/cloud_0_1620684056300559.pcd
+ 1399  ls
+ 1400  vim .env
+ 1401  docker-compose up
+ 1402  python3 request.py http://localhost:8090/upload /home/danil/PycharmProjects/parsePCD/cloud_0_1620684056300559.pcd
+ 1403  python3 request.py http://localhost:8090/upload /home/danil/PycharmProjects/parsePCD/cloud_2_1620724604311880.pcd
+ 1404  python3 request.py http://localhost:8090/upload cloud_2_1620724604311880.pcd
+ 1405  vim .env
+ 1406  docker-compose up
+ 1407  python3 request.py http://localhost:8090/upload /home/danil/PycharmProjects/parsePCD/cloud_2_1620724604311880.pcd
+ 1408  python3 request.py http://localhost:8090/upload cloud_2_1620724604311880.pcd 
+ 1409  ls
+ 1410  cd ~/Projects
+ 1411  ls
+ 1412  cd new
+ 1413  ls
+ 1414  cd service
+ 1415  ls
+ 1416  cd yolo
+ 1417  ls
+ 1418  cd docker
+ 1419  ls
+ 1420  vim docker-compose.yml
+ 1421  cd ../
+ 1422  ls
+ 1423  cd ../
+ 1424  ls
+ 1425  cd ../
+ 1426  ls
+ 1427  cd ../
+ 1428  ls
+ 1429  cd SafetyDoorsYolov5
+ 1430  ls
+ 1431  cd yolo
+ 1432  ls
+ 1433  vim docker-compose.yml
+ 1434  ls
+ 1435  cd shared
+ 1436  ls
+ 1437  cd weights
+ 1438  ls
+ 1439  cd ../
+ 1440  ls
+ 1441  cd ../
+ 1442  ls
+ 1443  vim docker-compose.yml
+ 1444  docker-compose up
+ 1445  ls
+ 1446  docker-compose up
+ 1447  python3 request.py http://localhost:8090/upload test_samples/cloud_0_1620671069838477.pcd
+ 1448  python3 request.py http://localhost:8090/upload test_samples/cloud_0_1620678769380077.pcd
+ 1449  mkdir ~/Desktop/lol
+ 1450  mv * ~/Desktop/lol
+ 1451  sudo mv * ~/Desktop/lol
+ 1452  ls
+ 1453  cd ../
+ 1454  ls
+ 1455  cd. ./
+ 1456  cd ../
+ 1457  ls
+ 1458  vim docker-compose.yml
+ 1459  exit
+ 1460  ls
+ 1461  docker-compose up
+ 1462  ;s
+ 1463  ls
+ 1464  vim docker-compose.yml
+ 1465  sudo cp best.pt ~/Projects/new/service/yolo/
+ 1466  sudo cp best.pt ~/Projects/new/service/yolo/shared/weights/best3.pt
+ 1467  sudo cp last.pt ~/Projects/new/service/yolo/shared/weights/last3.pt
+ 1468  ls
+ 1469  exit
+ 1470  ls
+ 1471  vim docker-compose.yml
+ 1472  ls
+ 1473  vim docker-compose.yml
+ 1474  vim .env
+ 1475  docker-compose up
+ 1476  python3 request.py http://localhost:8090/upload test_samples/cloud_0_1620678769380077.pcd
+ 1477  ls
+ 1478  cd shared
+ 1479  ls
+ 1480  vim scr.py
+ 1481  pwd
+ 1482  cp cloud_0_1620678769380077.pcd /home/danil/Projects/SafetyDoorsYolov5/yolo/shared
+ 1483  cp test_samples/cloud_0_1620678769380077.pcd /home/danil/Projects/SafetyDoorsYolov5/yolo/shared
+ 1484  vim scr.py
+ 1485  python scr.py
+ 1486  python3 scr.py
+ 1487  vim scr.py
+ 1488  ls
+ 1489  vim scr.py
+ 1490  python3 scr.py
+ 1491  vim scr.py
+ 1492  ls
+ 1493  vim scr.py
+ 1494  python scr.py
+ 1495  python3 scr.py
+ 1496  ls
+ 1497  exit
+ 1498  cd ~/Projects/SafetyDoorsYolov5/yolo/shared
+ 1499  ls
+ 1500  python3 scr.py
+ 1501  ls
+ 1502  cd //
+ 1503  cd ~/Projects/SafetyDoorsYolov5
+ 1504  ls
+ 1505  cd yolo
+ 1506  ls
+ 1507  vim docker-compose.yml
+ 1508  vim shared/data2/coco.yml
+ 1509  vim shared/data2/train/train.txt
+ 1510  ls
+ 1511  vim shared/data2/coco.yml
+ 1512  vim shared/data2/val/train.
+ 1513  vim shared/data2/val/train.txt
+ 1514  cd ../
+ 1515  ls
+ 1516  cd ../
+ 1517  ls
+ 1518  cd SafetyDoorsYolov5/yolo
+ 1519  ls
+ 1520  vim docker-compose.yml
+ 1521  docker-compose up
+ 1522  ls
+ 1523  cd ~/Projects/SafetyDoorsYolov5/yolo
+ 1524  ls
+ 1525  docker-compose up
+ 1526  docker ps
+ 1527  docker kill 0748d6d92ef2 b11032ad9c9d 6ffd029bc462 fa1abf696f6c 2ecdbb8875bf 3f396fc16f1a 1909bc781f12 f7f86484cea5
+ 1528  docker ps
+ 1529  docker-compose up
+ 1530  exit
+ 1531  ls
+ 1532  cd ~/Projects/SafetyDoorsService/workflow
+ 1533  ls
+ 1534  cd docker
+ 1535  ls
+ 1536  docker-compose up
+ 1537  docker ps
+ 1538  sudo docker exec -it docker_airflow-webserver_1 bash
+ 1539  docker exec -it docker_airflow-webserver_1 bash
+ 1540  ls
+ 1541  pwd
+ 1542  cd ../
+ 1543  ls
+ 1544  cd ../
+ 1545  ls
+ 1546  cd ../
+ 1547  ls
+ 1548  cd new
+ 1549  ls
+ 1550  cd service
+ 1551  ls
+ 1552  cd workflow
+ 1553  ls
+ 1554  cd docker
+ 1555  ls
+ 1556  docker-compose up
+ 1557  ls
+ 1558  cd ~/Projects/new/service/
+ 1559  ls
+ 1560  cd yolo
+ 1561  ls
+ 1562  cd ../
+ 1563  ls
+ 1564  cd handler
+ 1565  ls
+ 1566  cd docker
+ 1567  ls
+ 1568  docker-compose up
+ 1569  cd ~/Projects/new/service
+ 1570  ls
+ 1571  python request.py http://localhost:8080 /home/danil/PycharmProjects/parsePCD/cloud_0_1620684056300559.pcd
+ 1572  python3 request.py http://localhost:8080 /home/danil/PycharmProjects/parsePCD/cloud_0_1620684056300559.pcd
+ 1573  python3 request.py http://localhost:8090/upload /home/danil/PycharmProjects/parsePCD/cloud_0_1620684056300559.pcd
+ 1574  docker-compose up
+ 1575  python3 request.py http://localhost:8090/upload /home/danil/PycharmProjects/parsePCD/cloud_0_1620684056300559.pcd
+ 1576  docker-compose up
+ 1577  python3 request.py http://localhost:8090/upload /home/danil/PycharmProjects/parsePCD/cloud_0_1620684056300559.pcd
+ 1578  ls
+ 1579  cd ~/Projects/new/service
+ 1580  ls
+ 1581  cd ../
+ 1582  ls
+ 1583  https://gitlab.com/2284769meow/DragAndDrop
+ 1584  git clone https://gitlab.com/2284769meow/DragAndDrop
+ 1585  cd DragAndDrop
+ 1586  ls
+ 1587  cd DjangoProject
+ 1588  ls
+ 1589  virtualenv venv 
+ 1590  source venv/bin/activate
+ 1591  pip install -r req
+ 1592  pip install -r requirements.txt
+ 1593  python manage.py
+ 1594  python manage.py runserver
+ 1595  vim dragndrop/templates/dragndrop/dragndropinclude.html
+ 1596  ls
+ 1597  python manage.py runserver
+ 1598  ls
+ 1599  cd ~/Projects/new/DragAndDrop
+ 1600  ls
+ 1601  cd DjangoProject
+ 1602  ls
+ 1603  cd dragndrop
+ 1604  ls
+ 1605  cd templates
+ 1606  ls
+ 1607  cd dragndrop
+ 1608  ls
+ 1609  vim dragndropinclude.html
+ 1610  docker-compose build
+ 1611  docker-compose up
+ 1612  ls
+ 1613  vim dragndrop/templates/dragndrop/dragndropinclude.html
+ 1614  gedit dragndrop/templates/dragndrop/dragndropinclude.html
+ 1615  docker-compose up
+ 1616  cd ../../
+ 1617  cd DragAndDrop
+ 1618  docker-compose up
+ 1619  ls
+ 1620  cd DjangoProject
+ 1621  ls
+ 1622  ./manage.py runserver 0.0.0.0:8000
+ 1623  python3 manage.py runserver 0.0.0.0:8000
+ 1624  docker-compose up
+ 1625  exit
+ 1626  sudo snap install simplescreenrecorder
+ 1627  ls
+ 1628  cd workflow
+ 1629  ls
+ 1630  cd ../
+ 1631  ls
+ 1632  git add .
+ 1633  vim .gitignore
+ 1634  git add .
+ 1635  git commit -m "Last commit"
+ 1636  git push 
+ 1637  git pull
+ 1638  git push 
+ 1639  ls
+ 1640  cd ../
+ 1641  ls
+ 1642  pwd
+ 1643  cd ../
+ 1644  ls
+ 1645  cd SafetyDoorsYolov5
+ 1646  ls
+ 1647  rm daemon_kek.json
+ 1648  ls
+ 1649  vim .gitignore
+ 1650  git add .
+ 1651  vim .gitignore
+ 1652  git add .
+ 1653  git commit -m "Last commit"
+ 1654  git push
+ 1655  ssh kb@176.57.77.165 -p 7771
+ 1656  cd ~/Projects/new/service/ls
+ 1657  cd ~/Projects/new/service/
+ 1658  ls
+ 1659  cd yolo
+ 1660  ls
+ 1661  scp -P 7771 -r shared kb@176.57.77.165:/home/kb/safety-doors/
+ 1662  ls
+ 1663  scp -P 7771 -r restapi.py kb@176.57.77.165:/home/kb/safety-doors/
+ 1664  scp -P 7771 -r docke kb@176.57.77.165:/home/kb/safety-doors/
+ 1665  scp -P 7771 -r docker kb@176.57.77.165:/home/kb/safety-doors/
+ 1666  cd ~/Projects
+ 1667  ls
+ 1668  cd SafetyDoorsYolov5
+ 1669  ls
+ 1670  cp -R yolo ../CowIDYolo
+ 1671  cd ../
+ 1672  ls
+ 1673  cd CowIDYolo
+ 1674  ls
+ 1675  cd shared
+ 1676  ls
+ 1677  rm cloud_0_1620669639712724.pcd.jpg
+ 1678  rm cloud_0_1620678769380077.pcd
+ 1679  rm cloud_0_1620678769380077.pcd.jpg
+ 1680  ls
+ 1681  cd data
+ 1682  ls
+ 1683  cd ../
+ 1684  ls
+ 1685  htop -s
+ 1686  df -h
+ 1687  ls
+ 1688  ssh root@10.100.10.53 -p 32815
+ 1689  ping google.com
+ 1690  ssh root@10.100.10.53 -p 32815
+ 1691  scp -P 32815 root@10.100.10.53:/datasets/cowid21/detection/effdet/v1 ./
+ 1692  ls
+ 1693  rm -r data
+ 1694  rm -r data2
+ 1695  ls
+ 1696  cd weights
+ 1697  ls
+ 1698  cd ../
+ 1699  ls
+ 1700  scp -r -P 32815 root@10.100.10.53:/datasets/cowid21/detection/effdet/v1 ./
+ 1701  cd ~/Projects
+ 1702  ls
+ 1703  cd new
+ 1704  ls
+ 1705  cd service
+ 1706  ls
+ 1707  cp -R yolo ../../CowIDYoloInferenceServer
+ 1708  ls
+ 1709  cd ../
+ 1710  ls
+ 1711  cd ,,.
+ 1712  ls
+ 1713  cd ../
+ 1714  ls
+ 1715  cd CowIDYoloInferenceServer
+ 1716  ls
+ 1717  cd shared
+ 1718  ls
+ 1719  cd weights
+ 1720  ls
+ 1721  rm *
+ 1722  ls
+ 1723  rm *
+ 1724  ls
+ 1725  cd ../
+ 1726  ls
+ 1727  cd ../
+ 1728  ls
+ 1729  cd ..
+ 1730  ls
+ 1731  git clone https://github.com/fishawd/coco2yolo
+ 1732  ls
+ 1733  rm -r SafetyDoorsService
+ 1734  ls
+ 1735  sudo rm -r SafetyDoorsService
+ 1736  ls
+ 1737  df -h
+ 1738  ls
+ 1739  cd v1
+ 1740  ls
+ 1741  cd COCO
+ 1742  ls
+ 1743  rm -r cleaned_images
+ 1744  ls
+ 1745  rm -r images
+ 1746  ls
+ 1747  cd ../
+ 1748  ls
+ 1749  cd COCO
+ 1750  ls
+ 1751  unzip COCO_DATASET.zip
+ 1752  ls
+ 1753  df -g
+ 1754  df -h
+ 1755  ;s
+ 1756  ls
+ 1757  cd ../
+ 1758  ls
+ 1759  cd ../
+ 1760  ls
+ 1761  cd ../
+ 1762  ls
+ 1763  cd ../
+ 1764  ls
+ 1765  cd coco2yolo
+ 1766  ls
+ 1767  python coco2yolo.py
+ 1768  python3 coco2yolo.py
+ 1769  cat coco2yolo.py
+ 1770  vim coco2yolo.py
+ 1771  cd Projects
+ 1772  ls
+ 1773  cd CowIDYolo
+ 1774  ls
+ 1775  cd shared
+ 1776  ls
+ 1777  cd weights
+ 1778  ls
+ 1779  cd ../
+ 1780  ls
+ 1781  cd v1
+ 1782  ls
+ 1783  cd COCO
+ 1784  ls
+ 1785  cd annotations
+ 1786  ls
+ 1787  cd ../
+ 1788  ls
+ 1789  cd annotations
+ 1790  ls
+ 1791  pwd
+ 1792  vim coco2yolo.py
+ 1793  ls
+ 1794  cd ../
+ 1795  ls
+ 1796  cd ../
+ 1797  ls
+ 1798  mkdir YOLO
+ 1799  cd YOLO
+ 1800  ls
+ 1801  mkdir labels
+ 1802  la
+ 1803  ls
+ 1804  python3 coco2yolo.py
+ 1805  vim coco2yolo.py
+ 1806  ls
+ 1807  cd labels
+ 1808  ls
+ 1809  cd ../
+ 1810  ls
+ 1811  cd ../
+ 1812  ls
+ 1813  cd COCO
+ 1814  ls
+ 1815  cd annotations
+ 1816  ls
+ 1817  vim coco2yolo.py
+ 1818  python3 coco2yolo.py
+ 1819  vim coco2yolo.py
+ 1820  ls
+ 1821  cd ../
+ 1822  ls
+ 1823  cd ../
+ 1824  ls
+ 1825  cd YOLO
+ 1826  ls
+ 1827  cd labels
+ 1828  ls
+ 1829  pwd
+ 1830  vim coco2yolo.py
+ 1831  python3 coco2yolo.py
+ 1832  vim coco2yolo.py
+ 1833  pwd
+ 1834  cd ..
+ 1835  ls
+ 1836  cd ..
+ 1837  ls
+ 1838  cd COCO
+ 1839  ls
+ 1840  cd annotations
+ 1841  vim coco2yolo.py
+ 1842  ls
+ 1843  pwd
+ 1844  python3 coco2yolo.py
+ 1845  ls
+ 1846  cd ../
+ 1847  ls
+ 1848  cd ../
+ 1849  ls
+ 1850  cd Y
+ 1851  cd YOLO
+ 1852  ls
+ 1853  cd labels
+ 1854  ls
+ 1855  ;s
+ 1856  ls
+ 1857  cd ~/Projects
+ 1858  ls
+ 1859  cd Co
+ 1860  cd CowIDYolo
+ 1861  ls
+ 1862  cd results
+ 1863  ls
+ 1864  cd ../shared
+ 1865  ls
+ 1866  cd v1
+ 1867  ls
+ 1868  cd YOLO
+ 1869  ls
+ 1870  cd labels
+ 1871  ls
+ 1872  cd ../
+ 1873  ls
+ 1874  cd ../
+ 1875  ls
+ 1876  cd YOLO
+ 1877  ls
+ 1878  cd labels
+ 1879  ls
+ 1880  cat frame_008064.txt
+ 1881  cat frame_008073.txt
+ 1882  cat frame_012708.txt
+ 1883  cat frame_015321.txt
+ 1884  cat frame_009855.txt
+ 1885  cat frame_001021.txt
+ 1886  ls
+ 1887  python
+ 1888  cd ../
+ 1889  ls
+ 1890  mkdir train
+ 1891  mkdir val 
+ 1892  python3
+ 1893  touch train_val_split.py
+ 1894  exit
+ 1895  ;s
+ 1896  ls
+ 1897  cd Projects/
+ 1898  ls
+ 1899  cd CowIDYolo
+ 1900  ls
+ 1901  cd shared
+ 1902  ls
+ 1903  cd v1
+ 1904  ls
+ 1905  cd YOLO
+ 1906  ls
+ 1907  vim train_val_split.py
+ 1908  cd ~/Projects
+ 1909  ls
+ 1910  cd CowIDYolo
+ 1911  ls
+ 1912  cd results
+ 1913  ls
+ 1914  cd ../shared
+ 1915  ls
+ 1916  cd weights
+ 1917  ls
+ 1918  cd ../v1
+ 1919  ls
+ 1920  cd YOLO
+ 1921  ls
+ 1922  cd ../
+ 1923  ls
+ 1924  cd COCO
+ 1925  ls
+ 1926  cd images
+ 1927  ls
+ 1928  pwd
+ 1929  exit
+ 1930  python3 train_val_split.py
+ 1931  vim train_val_split.py
+ 1932  python3 train_val_split.py
+ 1933  ls
+ 1934  cd val
+ 1935  ls
+ 1936  cd ../
+ 1937  ls
+ 1938  cd train
+ 1939  ls
+ 1940  cd ../
+ 1941  ls
+ 1942  cd ../
+ 1943  ls
+ 1944  cd YOLO
+ 1945  ls
+ 1946  mkdir yolo.yml
+ 1947  ls
+ 1948  rmdir yolo.yml
+ 1949  touch yolo.yml
+ 1950  vim yolo.yml
+ 1951  ls
+ 1952  cd train
+ 1953  pwd
+ 1954  cd ..
+ 1955  ls
+ 1956  vim yolo.yml
+ 1957  exit
+ 1958  vim yolo.yml
+ 1959  ;
+ 1960  ls
+ 1961  cd labels
+ 1962  ls
+ 1963  cd ../
+ 1964  ls
+ 1965  pwd
+ 1966  cd /home/danil/Projects/CowIDYolo/shared/v1/YOLO
+ 1967  cd ../
+ 1968  ls
+ 1969  cd COCO
+ 1970  ls
+ 1971  cd annotations
+ 1972  ls
+ 1973  python
+ 1974  python3
+ 1975  vim yolo.yml
+ 1976  cd ../
+ 1977  ls
+ 1978  cd ../
+ 1979  ls
+ 1980  cd Y
+ 1981  cd v1/YOLO
+ 1982  ls
+ 1983  pwd
+ 1984  cd ../../
+ 1985  ls
+ 1986  cd ../
+ 1987  ls
+ 1988  vim docker-compose.yml
+ 1989  ls
+ 1990  cd results
+ 1991  ls
+ 1992  cd detect
+ 1993  ls
+ 1994  rm -r *
+ 1995  ls
+ 1996  sudo rm -r *
+ 1997  ls
+ 1998  cd ../
+ 1999  ls
+ 2000  cd train
+ 2001  ls
+ 2002  rm -rf *
+ 2003  sudo rm -rf *
+ 2004  ls
+ 2005  cd ../
+ 2006  ls
+ 2007  cd ../
+ 2008  ls
+ 2009  vim docker-compose.yml
+ 2010  exirt
+ 2011  exit
+ 2012  docker-compose up
+ 2013  ls
+ 2014  vim docker-compose.yml
+ 2015  cd shared
+ 2016  ls
+ 2017  cd v1
+ 2018  ls
+ 2019  cd YOLO
+ 2020  ls
+ 2021  vat yolo.yml
+ 2022  cat yolo.yml
+ 2023  vim yolo.yml
+ 2024  cd ../
+ 2025  ls
+ 2026  cd ../
+ 2027  ls
+ 2028  cd ../
+ 2029  ls
+ 2030  docker-compose upp
+ 2031  docker-compose up
+ 2032  sudo docker ps
+ 2033  sudo docker kill b7d10edf6f84 eb4924c59783 a51c45d59818 39a1ed5991b2 be7297c78083 0a0fb446eead 0748d6d92ef2 f7f86484cea5
+ 2034  docker-compose up
+ 2035  ls
+ 2036  cd shared
+ 2037  ls
+ 2038  cd c
+ 2039  cd v1
+ 2040  ls
+ 2041  cd YOLO
+ 2042  ls
+ 2043  cd ../
+ 2044  ls
+ 2045  cd YOLO
+ 2046  ls
+ 2047  cd train
+ 2048  ls
+ 2049  cd ../
+ 2050  ls
+ 2051  cd ,,.
+ 2052  cd ../
+ 2053  ls
+ 2054  cd ../
+ 2055  ls
+ 2056  cd ../
+ 2057  ls
+ 2058  docker-compose up
+ 2059  docker ps
+ 2060  cd ~/Projects
+ 2061  ls
+ 2062  cd CowIDYolo
+ 2063  ls
+ 2064  cd shared
+ 2065  ls
+ 2066  cd v1
+ 2067  ls
+ 2068  cd YOLO
+ 2069  ls
+ 2070  cat train
+ 2071  cat train_val_split.py
+ 2072  ;s
+ 2073  ls
+ 2074  cd results
+ 2075  ls
+ 2076  cd detect
+ 2077  ls
+ 2078  cd ../train
+ 2079  ls
+ 2080  cd exp4
+ 2081  ls
+ 2082  cd weights
+ 2083  ls
+ 2084  pwd
+ 2085  cd ../
+ 2086  ls
+ 2087  cd ../
+ 2088  ls
+ 2089  cd ../
+ 2090  ls
+ 2091  cd ../
+ 2092  ls
+ 2093  vim docker-compose.yml
+ 2094  ls
+ 2095  cd results
+ 2096  ls
+ 2097  cd detect
+ 2098  ls
+ 2099  cd ../../
+ 2100  ls
+ 2101  docker-compose up
+ 2102  vim docker-compose.yml
+ 2103  docker-compose up
+ 2104  ls
+ 2105  pwd
+ 2106  vim docker-compose.yml
+ 2107  docker-compose up
+ 2108  vim docker-compose.yml
+ 2109  docker-compose up
+ 2110  ls
+ 2111  cd shared
+ 2112  ls
+ 2113  cd v1
+ 2114  ls
+ 2115  cd YOLO
+ 2116  ls
+ 2117  cd train
+ 2118  ls
+ 2119  cd ../
+ 2120  ls
+ 2121  cd val
+ 2122  ls
+ 2123  cp frame_001374.PNG ../../
+ 2124  cp frame_001375.PNG ../../
+ 2125  cp frame_001373.PNG ../../
+ 2126  cp frame_001012.PNG ../../
+ 2127  cp frame_001017.PNG ../../
+ 2128  cp frame_000177. ../../
+ 2129  cp frame_000177.PNG ../../
+ 2130  cd ../../
+ 2131  ls
+ 2132  mkdir test
+ 2133  mv frame_000177.PNG test
+ 2134  mv frame_001012.PNG test
+ 2135  v frame_001017.PNG test
+ 2136  mv frame_001017.PNG test
+ 2137  mv frame_001374.PNG test
+ 2138  cd test
+ 2139  ls
+ 2140  cd ../
+ 2141  ls
+ 2142  cd ../
+ 2143  ls
+ 2144  cd ../
+ 2145  ls
+ 2146  vim docker-compose.yml
+ 2147  ls
+ 2148  cd ../
+ 2149  ls
+ 2150  cd CowIDYolo
+ 2151  ls
+ 2152  cd results
+ 2153  ls
+ 2154  cd ../
+ 2155  ls
+ 2156  cd shared
+ 2157  ls
+ 2158  cd v1
+ 2159  ls
+ 2160  cd ../
+ 2161  ls
+ 2162  cd ../
+ 2163  ls
+ 2164  vim docker-compose.yml
+ 2165  ls
+ 2166  cd ~/Projects
+ 2167  ls
+ 2168  cd CowIDYolo
+ 2169  ls
+ 2170  cd shared
+ 2171  ls
+ 2172  cd v1
+ 2173  ls
+ 2174  cd test
+ 2175  ls
+ 2176  vim docker-compose.yml
+ 2177  docker-compose up
+ 2178  ls
+ 2179  cd results
+ 2180  ls
+ 2181  cd detect
+ 2182  ls
+ 2183  cd exp
+ 2184  ls
+ 2185  cd ../
+ 2186  ls
+ 2187  cd ../../
+ 2188  ls
+ 2189  vim docker-compose.yml
+ 2190  docker-compose up
+ 2191  vim docker-compose.yml
+ 2192  docker-compose up
+ 2193  vim docker-compose.yml
+ 2194  docker-compose up
+ 2195  cd ../
+ 2196  ls
+ 2197  cd CowIDYolo
+ 2198  ls
+ 2199  cd ../
+ 2200  ls
+ 2201  cd CowIDYolo
+ 2202  ls
+ 2203  vim docker-compose.yml
+ 2204  docker-compose up
+ 2205  exit
+ 2206  cd 
+ 2207  cd Projects/CowIDYolo
+ 2208  ls
+ 2209  git add .
+ 2210  git init .
+ 2211  ls
+ 2212  vim .gitignore
+ 2213  ls
+ 2214  vim .gitignore
+ 2215  git add .
+ 2216  rm -r .git
+ 2217  sudo rm -r .git
+ 2218  ls
+ 2219  cd coco2yolo
+ 2220  ls
+ 2221  rm -r .git
+ 2222  sudo rm -r .git
+ 2223  ls
+ 2224  rm LICENSE
+ 2225  ls
+ 2226  rm README.md
+ 2227  ls
+ 2228  cd ../
+ 2229  ls
+ 2230  git add .
+ 2231  git init .
+ 2232  git add .
+ 2233  git commit -m "Initial commit"
+ 2234  git push https://gitlab.com/surikn/CowIDYolo
+ 2235  git push --set-upstream https://gitlab.com/surikn/CowIDYolo master
+ 2236  ls
+ 2237  cd shared
+ 2238  ls
+ 2239  cd weights
+ 2240  ls
+ 2241  cd ../
+ 2242  ls
+ 2243  cd v1
+ 2244  ls
+ 2245  cd ../
+ 2246  ls
+ 2247  cd ../
+ 2248  ls
+ 2249  history
+ 2250  ssh root@10.100.10.53 -p 32815
+ 2251  scp -P 7771 -r results kb@176.57.77.165:/datasets/cowid21/detection/yolo/v1
+ 2252  scp -P 32815 -r results root@10.100.10.53:/datasets/cowid21/detection/yolo/v1
+ 2253  ls
+ 2254  scp -P 32815 -r shared root@10.100.10.53:/datasets/cowid21/detection/yolo/v1
+ 2255  ssh root@10.100.10.53 -p 32815
+ 2256  scp -P 32815 -r shared root@10.100.10.53:/datasets/cowid21/detection/yolo/v1
+ 2257  ls
+ 2258  cd ../
+ 2259  ls
+ 2260  history
+ 2261  ls
+ 2262  cd CowIDYoloInferenceServer
+ 2263  ls
+ 2264  git init .
+ 2265  git commit -m "Initial commit"
+ 2266  git push --set-upstream https://gitlab.com/surikn/CowIDYoloInferenceServer master
+ 2267  ls
+ 2268  cd ../
+ 2269  ls
+ 2270  exit
+ 2271  ls
+ 2272  git checkout normalizer_relocate_rnnmorph_to_pymorphy
+ 2273  pip install https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.5.0-py3-none-any.whl
+ 2274  pip install https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.15.0-py3-none-any.whl
+ 2275  pip install https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.15-py3-none-any.whl
+ 2276  pip install --upgrade pip
+ 2277  pip install https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.15-py3-none-any.whl
+ 2278  pip install tensorflow
+ 2279  pip install tensorflow==1.15.5
+ 2280  pip install requirements.txt
+ 2281  pip install requirements
+ 2282  mkdir ~/week1
+ 2283  cd ~/week1
+ 2284  cd \d /usr/bin
+ 2285  cd \d usr/bin
+ 2286  cd ~/ usr/bin
+ 2287  cd ~/usr/bin
+ 2288  cd usr/bin
+ 2289  cd /usr/bin
+ 2290  ls | grep "gcc" | sort -r | > ~/week1/ex1.txt
+ 2291  cd ~/week1
+ 2292  ls
+ 2293  nano ex1.txt
