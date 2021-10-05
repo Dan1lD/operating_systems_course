@@ -2,6 +2,9 @@
 #include <stdio.h>
 
 int main() {
+	//Allows you to generate random number
+	srand(time_t(NULL));
+    
     printf("Enter original array size: ");
     int n1 = 0;
     scanf("%d", &n1);
