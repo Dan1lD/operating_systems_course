@@ -20,7 +20,7 @@ int main () {
     printf("Avaliable shortcuts:\n");
     printf("P + E -> \"I passed the Exam!\"\n");
     printf("C + A + P -> \"Get some cappuccino!\"\n");
-    printf("K + C + U + F -> \"I failed the Exam!\"\n");
+    printf("P + I + S -> \"Wake up, mommy! I pissed the bed!\"\n");
 
     while (fread(&input, sizeof(struct input_event), 1, infile)) {
         if (input.type == EV_KEY && (input.value == 0 || input.value == 1)) {
@@ -32,8 +32,8 @@ int main () {
                     printf("I passed the Exam!\n");
                 } else if (keys_statuses[46] && keys_statuses[30] && keys_statuses[25]) {
                     printf("Get some cappuccino!\n");
-                } else if (keys_statuses[33] && keys_statuses[22] && keys_statuses[46] && keys_statuses[37]) {
-                    printf("I failed the Exam!\n");
+                } else if (keys_statuses[25] && keys_statuses[23] && keys_statuses[31]) {
+                    printf("Wake up, mommy! I pissed the bed!\n");
                 }
             }
         }
